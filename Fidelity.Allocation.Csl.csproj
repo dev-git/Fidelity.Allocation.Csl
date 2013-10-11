@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Fidelity.Allocation.App">
+      <HintPath>..\Fidelity.Allocation.App\bin\Debug\Fidelity.Allocation.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Fidelity.Allocation.DomainLayer">
+      <HintPath>..\Fidelity.Allocation.App\bin\Debug\Fidelity.Allocation.DomainLayer.dll</HintPath>
+    </Reference>
     <Reference Include="Fidelity.Allocation.External.App">
       <HintPath>..\References\External\Fidelity.Allocation.External.App.dll</HintPath>
     </Reference>
@@ -40,6 +46,9 @@
     </Reference>
     <Reference Include="Fidelity.Allocation.External.PersistencyLayer">
       <HintPath>..\References\External\Fidelity.Allocation.External.PersistencyLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Fidelity.Allocation.PersistencyLayer">
+      <HintPath>..\Fidelity.Allocation.App\bin\Debug\Fidelity.Allocation.PersistencyLayer.dll</HintPath>
     </Reference>
     <Reference Include="Fidelity.Framework.DomainLayer">
       <HintPath>..\..\External\References\Fidelity.Framework\Fidelity.Framework.DomainLayer.dll</HintPath>
@@ -77,6 +86,9 @@
     </Reference>
     <Reference Include="NHibernate">
       <HintPath>packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache2">
+      <HintPath>packages\NHibernate.Caches.SysCache2.3.2.0.4000\lib\Net35\NHibernate.Caches.SysCache2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
